@@ -1,0 +1,32 @@
+/* CSS Whoami */
+.whoami {
+    padding: 10px 0;
+    position: relative;
+    background-color: #835e83bb;
+    
+  }
+  .whoami h2 {
+      font-size: 45px;
+      font-weight: 700;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+  }
+  .whoami p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: left;
+    width: 64%;
+    
+  }
+  .imgTaille {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
+      
+    
+  }

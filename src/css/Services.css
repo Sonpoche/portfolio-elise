@@ -1,0 +1,59 @@
+/* Services CSS*/
+.service {
+    padding: 100px 0 50px 0;
+    position: relative;
+    background-image: url('../assets/img/cerisier2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .service-bx {
+    background-color: #bca3b2;
+    border-radius: 64px;
+    text-align: left;
+    padding: 40px 50px;
+    margin-top: -60px;
+  }
+  .service strong{
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .service h3 {
+    
+    justify-content: center;
+    text-align: center;
+      font-size: 35px;
+      font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+  }
+  .service p {
+      color: #fff;
+      justify-content: center;
+      font-size: 15px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 10px 0 25px 0;
+      
+  }
+  .service td {
+    color: #fff;
+    justify-content: center;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+  }
+  
+  .service th {
+    color: #fff;
+    justify-content: center;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+  }
+  
+  .background-image-center {
+    position: absolute;
+    width: 100%;
+    z-index: -4;
+  }
+  
