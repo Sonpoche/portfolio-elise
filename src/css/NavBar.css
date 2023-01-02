@@ -15,7 +15,7 @@ nav.navbar {
   }
   
   nav.navbar a.navbar-brand {
-      width: 10%;
+      width: 8%;
       
   }
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -114,4 +114,63 @@ nav.navbar {
   }
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       border-color: transparent;
+  }
+
+  /* BREAKPOINTS */
+  @media screen and (max-width: 992px){
+    nav.navbar a.navbar-brand {
+      width: 12%;
+      
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 200;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+   
+    font-size: 13px;
+  }
+  }
+
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    nav.navbar a.navbar-brand {
+      width: 13%;
+      
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 200;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+    
+    font-size: 13px;
+  }
+  }
+
+  @media screen and (max-width: 576px) {
+    nav.navbar a.navbar-brand {
+      width: 13%;
+      
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 200;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+   
+    font-size: 13px;
+  }
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    nav.navbar a.navbar-brand {
+      width: 13%;
+      
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 200;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+    
+    font-size: 13px;
+  }
   }

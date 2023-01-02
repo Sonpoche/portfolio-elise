@@ -84,10 +84,39 @@
     margin: 0 auto 15px auto;
   }
   
-  .background-image-center {
-    position: absolute;
-    width: 100%;
-    z-index: -4;
+  .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 10px;
+}
+
+  .carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 992px) {
+  .psychomot p {
+    font-size: 15px;
   }
+}
 
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .psychomot p {
+    font-size: 15px;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .psychomot p {
+    font-size: 15px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .psychomot p {
+    font-size: 15px;
+  }
+}

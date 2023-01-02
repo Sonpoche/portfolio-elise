@@ -21,8 +21,8 @@ export const Service = () => {
                         <li>Saint-Chamas (seulement le lundi).</li> <br></br> <br></br>
 
                             <strong>Le Bilan :</strong> <br></br>
-                            Un entretien précède le bilan. Il y a un temps d’anamnèse entre le patient avec ou sans sa famille et le psychomotricien. Le bilan se déroule sur trois rendez-vous d’une heure. (dont 2 pour l’entretien + passation et 1 compte rendue)  <br></br>
-                            Ensuite, le bilan psychomoteur est indispensable avant toute prise en charge pour élaborer un axe de travail. Il permet grâce à des tests standardisés et étalonner de pouvoir évaluer les compétences de l’individu sur différents domaines :<br></br><br></br>
+                            Un entretien précède le bilan. Il y a un temps d’anamnèse entre le patient avec ou sans sa famille et le psychomotricien. Le bilan se déroule sur trois rendez-vous d’une heure. (dont 2 pour l’entretien + passation et 1 compte rendu)  <br></br>
+                            Ensuite, le bilan psychomoteur est indispensable avant toute prise en charge pour élaborer un axe de travail. Il permet grâce à des tests standardisés et étalonnés de pouvoir évaluer les compétences de l’individu sur différents domaines :<br></br><br></br>
 
                            <li> Motricité (coordination, équilibre, mouvement…)</li>
                            <li> Motricité fine (dextérité manuel, coordination oculo-manuelle, bi-manuelle, praxies fines..)</li>
@@ -33,8 +33,8 @@ export const Service = () => {
                            <li> Fonctions exécutives (mémorisation, planification, attention, inhibition..)</li> 
                            <li> Emotion (gestion et adaptation) et interaction (avec l’autre et dans l’environnement) </li> <br></br>
 
-                            Quelques jours après la rédaction du bilan, il y a une restitution en présentiel avec un compte rendu écrit + oral.Lors du suivi, on peut venir réévalue la personne sur des items de bilan pour voir son évolution. <br></br><br></br>
-                           <strong>Le Suivie :</strong><br></br>  En fonction des résultats du bilan, une prise en charge sera engagée ou non. Les séances durent 45 minutes et se répètent globalement de manière hebdomadaire. <br></br><br></br>
+                            Quelques jours après la rédaction du bilan, il y a une restitution en présentiel avec un compte rendu écrit + oral. Lors du suivi, on peut venir réévalue la personne sur des items de bilan pour voir son évolution. <br></br><br></br>
+                           <strong>Le Suivi :</strong><br></br>  En fonction des résultats du bilan, une prise en charge sera engagée ou non. Les séances durent 45 minutes et se répètent globalement de manière hebdomadaire. <br></br><br></br>
                            <strong>La Médiation :</strong><br></br> Chaque psychomotricien par son savoir-faire, ses formations, ses outils personnels va utiliser les médiations qui lui sont spécifiques. La médiation est un intermédiaire entre le psychomotricien et la personne. C’est un support qui va orienter de manière spécifique l’axe de travail mais toujours dans un objectif de soin. <br></br> <br></br>
                            On retrouve diverses médiations thérapeutiques : relaxation, jeux moteurs, parcours de motricité, l’expression corporelle, théâtre, ateliers rythmiques, danse, art plastique, des jeux sous toutes les formes comme méthodes de rééducation…
 
@@ -93,7 +93,7 @@ export const Service = () => {
             <li>Carte vitale non acceptée.</li>
             </p>
             <p>
-               <strong>Remboursement :</strong> <br></br> Actuellement les actes de psychomotricité ne sont pas remboursés par la sécurité sociale. Néanmoins, il existe dans certains cas des aides de la part de certaines mutuelles ou via la MDPH (Maison Départementale de Personnes Handicapées).
+               <strong>Remboursement :</strong> <br></br> Actuellement, les actes de psychomotricité ne sont pas remboursés par la sécurité sociale. Néanmoins, il existe dans certains cas des aides de la part de certaines mutuelles ou via la MDPH (Maison Départementale de Personnes Handicapées).
             </p>
                     </div>
                     

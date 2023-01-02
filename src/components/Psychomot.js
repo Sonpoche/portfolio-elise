@@ -77,18 +77,18 @@ export const Psychomot = () => {
                                     </h3>
                                         <p> <li>Trouble déficitaire de l’attention avec ou sans hyperactivité (TDA/H)</li>
                                            <li>Trouble du spectre autistique (TSA)</li> 
-                                           <li>Trouble des apprentissages (dyspraxique, dysgraphique..)</li>  
+                                           <li>Troubles des apprentissages (dyspraxique, dysgraphique..)</li>  
                                            <li>Trouble moteur (Trouble acquisition des coordinations TAC…) </li> 
                                            <li>Trouble des conduites alimentaires (TCA)</li> 
-                                           <li>Troubles anxieux</li>  
+                                           <li>Trouble anxieux</li>  
                                            <li>Trouble du schéma corporel</li>  
-                                           <li>Troubles perturbateurs du contrôle, des émotions et des conduites.</li>  
+                                           <li>Trouble perturbateur du contrôle, des émotions et des conduites.</li>  
                                            <li>Retard de développement psychomoteur</li>  
                                            <li>Difficulté d’orientation spatio-temporel</li>  
                                            <li>Difficulté graphique ou de motricité fine</li> 
                                            <li>Stress post traumatique </li>  
                                            <li>Maladie génétique</li>  
-                                           <li>Handicape moteur et/ou intellectuel et/ou sensoriel, etc...</li>  
+                                           <li>Handicap moteur et/ou intellectuel et/ou sensoriel, etc...</li>  
                                            
                                         </p>
                                     </div><img className="d-block w-100" src={imgEnfant} alt="Enfant"/>
