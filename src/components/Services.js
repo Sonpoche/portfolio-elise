@@ -12,7 +12,7 @@ export const Service = () => {
                     <div className="service-bx">
                         <h3> Mes Services à Domicile </h3>
                         <br></br>
-                        <p> <strong>Psychomotricienne à Domicile dans les Bouches-du-Rhône (13) Voici mes secteurs géographiques : </strong> <br></br> 
+                        <p> <strong>Secteurs géographiques(13): </strong> <br></br> 
                         <li>Marseille 5ème arrondissement</li> 
                         <li>la Penne sur Huveaune</li> 
                         <li>Aubagne</li>

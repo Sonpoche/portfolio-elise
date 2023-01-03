@@ -5,6 +5,7 @@ import { Envelope } from "react-bootstrap-icons";
 import '../css/Contact.css';
 
 
+
 export const Contact = () => {
     const form = useRef();
 
@@ -12,6 +13,7 @@ export const Contact = () => {
         name: "",
         email: "",
         message: "",
+        tel: "",
     };
 
     const [contactData, setContactData] = useState({ ...initialFormState });
@@ -40,7 +42,7 @@ export const Contact = () => {
         //reset the form after submission
         setContactData({ ...initialFormState });
     };
-
+   
     return (
         <section className="contact" id="connect">
             <Container>
@@ -54,10 +56,13 @@ export const Contact = () => {
                             <input type="text" className="form-control" name="name" placeholder= "Nom & Prénom" value={contactData.name} onChange={handleChange} required />
                         </Col>
                         <Col sm={6}>
+                            <input type="tel" className="form-control" name="tel" pattern="[0-9]+" minLength="10" maxLength="10"  placeholder="Numéro de téléphone" value={contactData.tel} onChange={handleChange} required /> 
+                        </Col>
+                        <Col sm={6}>
                             <input type="email" className="form-control" name="email" placeholder="Adresse e-mail" value={contactData.email} onChange={handleChange} required /> 
                         </Col>
                         <Col>
-                            <textarea className="form-control" type="text" name="message" maxLength="6000" row="6" placeholder="Entrez votre message" value={contactData.message} onChange={handleChange} required ></textarea>
+                            <textarea className="form-control" type="text" name="message" maxLength="6000" row="6" placeholder="Entrez votre message..." value={contactData.message} onChange={handleChange} required ></textarea>
                             <button type="submit"><span>Envoyez le message</span></button>    
                         </Col> 
                     </Row>

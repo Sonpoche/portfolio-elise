@@ -30,3 +30,28 @@
       
     
   }
+
+  /** BREAKPOINTS **/
+/* For large devices */
+@media screen and (max-width: 992px){
+  .imgTaille {
+    width: 70%;
+  }
+}
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .imgTaille {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imgTaille {
+    width: 70%;
+  }
+}
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .imgTaille {
+    width: 70%;
+  }
+}
