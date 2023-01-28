@@ -1,0 +1,87 @@
+.about { 
+  background: rgb(215,183,215);
+  background: linear-gradient(145deg, rgb(179, 152, 179) 0%, rgb(149, 126, 149) 35%, rgb(72, 50, 88) 100%);
+  padding: 8rem 0 8rem;
+  width: 100%;
+ 
+}
+
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+  
+}
+
+.about__img {
+  width: 350px;
+  height: auto;
+  
+  justify-self: center;
+  
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive;
+}
+
+.section__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 8rem;
+}
+
+.about__description {
+  padding: 0 4rem 0 0;
+  margin-bottom: 2.5rem;
+}
+
+.ul__style {
+  padding-left: 0;
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+/** BREAKPOINTS **/
+/* For large devices */
+@media screen and (max-width: 992px){
+  .about__container {
+      grid-template-columns: 1fr;
+      row-gap: 2.5rem;
+  }
+  
+  .about__img {
+      width: 220px;
+  }
+  
+  .about__data {
+      text-align: center;
+  }
+
+  .about__description {
+      padding: 0 5rem;
+      margin-bottom: 2rem;
+  }
+}
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .about__description {
+      padding: 0;
+  }
+}
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+      height: auto;
+      width: 100%;
+      padding: 6rem 0 3rem;
+  }
+}

@@ -2,5 +2,14 @@
 .footer {
     padding: 25px 0 0px 0;
     background-color:rgb(70, 58, 77) ;
-    
+    font-size: 15px;
   }
+
+.lien__style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.text-reset {
+  text-decoration: none;
+}

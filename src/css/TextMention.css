@@ -1,20 +1,13 @@
 /* Mentions */
 .mention {
     margin-top: 0;
-    padding: 290px 0 100px 0;
-    background-color: #835e83bb;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 200px 0 100px 0;
+    background: rgb(215,183,215);
+    background: linear-gradient(145deg, rgba(215,183,215,1) 0%, rgba(179,152,179,1) 35%, rgba(119,102,119,1) 100%);
+    
     
   }
-  .mention-bx {
-    background-color: #bca3b2;
-    border-radius: 64px;
-    text-align: center;
-    padding: 30px 50px;
-    margin-top: -60px;
-  }
+  
   
   
   .mention h3 {
@@ -33,5 +26,19 @@
       letter-spacing: 0.8px;
       line-height: 1.5em;
       margin: 10px 0 25px 0;
-      
+      text-align: center;
+  }
+
+  .lien__web {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .style__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .color__mention {
+    background-color: rgb(53, 44, 58);
   }

@@ -3,16 +3,19 @@
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
 	font-weight: 700;
+  font-display: swap;
 }
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Medium.ttf');
 	font-weight: 500;
+  font-display: swap;
 }
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
+  font-display: swap;
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
@@ -62,6 +65,21 @@ img {
 button {
   border: 0;
   background-color: transparent;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+ul {
+  padding-left: 1rem !important;
 }
 
 input:focus, textarea:focus, select:focus {

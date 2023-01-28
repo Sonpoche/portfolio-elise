@@ -1,7 +1,7 @@
 import React from 'react';
 import { Banniere } from "../components/Banniere";
 import { Psychomot } from "../components/Psychomot";
-import { Whoami } from "../components/Whoami";
+import { About } from "../components/About";
 import { Contact } from "../components/Contact";
 import { Service } from "../components/Services";
 
@@ -13,7 +13,7 @@ export const Home = () => {
 
       <Banniere />
       <Psychomot />
-      <Whoami />
+      <About />
       <Service />
       <Contact />
       

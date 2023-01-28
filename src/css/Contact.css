@@ -28,6 +28,7 @@
     font-size: 15px;
     letter-spacing: 0.8px;
     transition: 0.3s ease-in-out;
+    
   }
   .contact form input:focus, .contact form textarea:focus {
     background: rgba(255, 255, 255, 1);
@@ -77,4 +78,13 @@
   .contact form button:hover::before {
     width: 100%;
   }
-  
+
+  .form-control {
+    appearance: auto;
+  }
+
+  .alert {
+    background: linear-gradient(90.21deg,rgba(59, 20, 79, 0.474) 111.58%, rgb(206, 179, 222) -5.91% );
+    margin-left: 0.75rem;
+    color: #fff;
+  }

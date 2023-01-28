@@ -2,58 +2,47 @@
 .psychomot {
     padding: 100px 0 50px 0;
     position: relative;
-    background-image: url('../assets/img/cerisier3.png');
-    background-attachment: fixed;
-    background-position: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background: url('../assets/img/cerisier3.jpg') center center/cover no-repeat;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(121, 84, 154, 0.65);
+    
+  }
+  .psychomot__container {
+    
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 3.5rem;
+    column-gap: 2rem;
+    align-items: center;
+    row-gap: 7rem;
+  }
+
+  .psychomot__img {
+    background: url(../assets/img/lava.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    
+    box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+    justify-self: center;
+    width: 400px;
+    height: 400px;
+    order: 1;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
-  .psychomot-bx {
-    background-color: #bca3b2;
-    text-align: center;
-    padding: 30px 50px;
-    margin-top: -60px;
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
-  .psychomot-bx1 {
-    background-color: #bca3b2;
-    text-align: left;
-    padding: 15px 50px;
-    margin-top: -60px;
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
-  .psychomot-bx2 {
-    background-color: #bca3b2;
-    text-align: left;
-    padding: 30px 50px;
-    margin-top: -60px;
-  }
-  .psychomot-bx3 {
-    background-color: #bca3b2;
-    text-align: left;
-    padding: 30px 50px;
-    margin-top: -60px;
-  }
-  .psychomot-bx4 {
-    background-color: #bca3b2;
-    text-align: left;
-    padding: 30px 50px;
-    margin-top: -60px;
-  }
-  .psychomot-bx5 {
-    background-color: #bca3b2;
-    text-align: left;
-    padding: 30px 50px;
-    margin-top: -60px;
-  }
-  .psychomot h2 {
-    justify-content: center;
-    text-align: center;
-      font-size: 35px;
-      font-weight: 700;
-    font-family: 'Dancing Script', cursive;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
-    
-  }
+}
   
   .psychomot h3 {
     justify-content: center;
@@ -61,9 +50,16 @@
       font-size: 35px;
       font-weight: 700;
     font-family: 'Dancing Script', cursive;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
-    
+    margin-bottom: 2rem;
   }
+
+  .psychomot__subtitle {
+    font-size: 35px !important;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+}
+
   .psychomot p {
       color: #fff;
       justify-content: center;
@@ -74,24 +70,53 @@
       
   }
   
-  .psychomot-carousel {
-    width: 80%;
-    margin: 0 auto;
+  .psychomot__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
     
-  }
-  .psychomot-carousel .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-  }
-  
-  .carousel-control-next-icon {
-    background-color: black;
-    border-radius: 10px;
 }
 
-  .carousel-control-prev-icon {
-  background-color: black;
-  border-radius: 10px;
+
+.psychomot__imgfilter {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+  order: 0;
+  justify-self: center;
+  width: 115%;
+  height: auto;
+}
+
+.psychomot__description2 {
+  margin-bottom: 2.5rem;
+  text-align: left;
+  padding: 0 0 0 4rem;
+}
+
+.psychomot__filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 5rem;
+    font-size: 20px;
+}
+
+.psychomot__item {
+    cursor: pointer;
+    color: #fff;
+    padding: 2rem 4rem;
+    background-color: #bca3b2;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+.psychomot__item:hover {
+    background-color: rgb(70, 58, 77);
+    color: #fff;
 }
 
 /* BREAKPOINTS */
@@ -99,19 +124,58 @@
   .psychomot p {
     font-size: 15px;
   }
+
+  .psychomot__imgfilter {
+    width: 100%;
+    height: auto;
 }
 
-/* For medium devices */
-@media screen and (max-width: 768px) {
-  .psychomot p {
-    font-size: 15px;
-  }
+.psychomot__img {
+  width: 250px;
+  height: 250px;
+  box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+}
+
+.psychomot__filters {
+        
+  column-gap: 1rem;
+ 
+}
+.psychomot__container {
+  grid-template-columns: 1fr;
+  row-gap: 2.5rem;
+}
+.psychomot__description2 {
+  text-align: justify;
+  padding: 0 0 0 0;
+}
+.psychomot__item {
+  padding: 0.25rem 0.75rem;
+}
 }
 
 @media screen and (max-width: 576px) {
   .psychomot p {
     font-size: 15px;
   }
+
+  .psychomot__imgfilter {
+    width: 100%;
+    height: auto;
+}
+  .psychomot__description2 {
+    text-align: justify;
+    padding: 0 0 0 0;  
+  }
+  .psychomot__item {
+    padding: 0.25rem 0.75rem;
+  }
+
+  .psychomot__filters {
+        
+    column-gap: 0.5rem;
+   
+}
 }
 
 /* For small devices */
@@ -119,4 +183,17 @@
   .psychomot p {
     font-size: 15px;
   }
+
+  .psychomot__imgfilter {
+    width: 100%;
+    height: auto;
+}
+.psychomot__description2 {
+  text-align: justify;
+  padding: 0 0 0 0;
+}
+.psychomot__item {
+  padding: 0.25rem 0.75rem;
+}
+
 }

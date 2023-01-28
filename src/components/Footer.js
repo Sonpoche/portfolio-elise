@@ -19,47 +19,58 @@ export const Footer = () => {
               <h6 className='text-uppercase fw-bold mb-4'>
                 Elise Cigala | Psychomotricienne 
               </h6>
-              <p>
+              <ul className='lien__style'>
                 Horaires et Jours d'ouverture : <br></br><br></br>
-                  <li>Lundi (Saint-Chamas) : 9h-18h </li>
-                  <li>Mardi : 9h-18h</li> 
-                  <li>Mercredi : 9h-18h</li> 
+                  <li></li>
+                  <li>Mardi : 9h-18h </li> 
+                  <li>Mercredi : 9h-18h (Saint-Chamas seulement)</li> 
                   <li>Jeudi : 9h-18h</li> 
-                  <li>Vendredi : 9h-18h</li> 
-              </p>
+                  <li></li> 
+              </ul>
             </Col>
             <Col md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Liens Utiles</h6>
-              <p>
+              <ul className='lien__style'>
+              <li>
                 <a href={Memoire} download className='text-reset'>
                   Télécharger mon mémoire (PDF)
                 </a>
-              </p>
-              <p>
+              </li>
+              <br/>
+              <li>
                 <a href="http://www.mdph13.fr/" className='text-reset'>
                    Mdph13
                 </a>
-              </p>
-              <p>
+              </li>
+              <br/>
+              <li>
                 <a href="https://fedepsychomot.com/" className='text-reset'>
                   Fédération des psychomotriciens.
                 </a>
-              </p>
-
+              </li>
+              <br/>
+              <li>
+                <a href="https://www.webdevfred.fr" className='text-reset'> 
+                Site Web Crée par: https://www.webdevfred.fr
+                </a>
+              </li>
+            </ul>
             </Col>
 
             <Col md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Coordonnées</h6>
-              <a href="mailto:psychomot.cigala@gmail.com" className='text-reset'> <BsFillEnvelopeFill size={10} className="me-3" />psychomot.cigala@gmail.com </a>
-              <p> <BsFillTelephoneFill size={10} className="me-3"/> 06 33 04 26 46</p>
+              <a href="mailto:psychomot.cigala@gmail.com" className='text-reset a__footer'> <BsFillEnvelopeFill size={10} className="me-3" />psychomot.cigala@gmail.com </a>
+              <br/> <br />
+              <a href="tel:+33633042646" className='text-reset'> <BsFillTelephoneFill size={10} className="me-3"/>Cliquez pour m'appeler !</a>
               
             </Col>
           </Row>
         </Container>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center p-4 color__mention'>
         <Link to="/mention" className='text-reset'>Mentions Légales</Link>
+        
       </div>
     </footer>
   );

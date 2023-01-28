@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { Col, Container, Row } from "react-bootstrap";
-import headerImg from "../assets/img/psychomot.png";
+import Logo from "../assets/img/logo.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 import '../css/Banniere.css';
+import { ScrollDown } from "./component/ScrollDown";
 
 
 export const Banniere = () => {
@@ -58,11 +59,12 @@ export const Banniere = () => {
                         <span className="tagline">Votre Psychomotricienne à Domicile</span>
                         <h1><span className="wrap">E{text}</span></h1>
                         <p>"Il faut penser le corps. Le penser, certes, mais aussi et peut-être avant tout le connaître, le sentir, l'apprivoiser, le mettre au travail..." B.LESAGE</p>
+                        <ScrollDown />
                        </div> }
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header img"/>
+                        <img src={Logo} alt="logo" className="banniere__img"/>
                     </Col>
                 </Row>
             </Container>

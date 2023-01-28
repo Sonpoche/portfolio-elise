@@ -1,6 +1,5 @@
 /* CSS NAVBAR */
 nav.navbar {
-    padding: 18px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,17 +17,22 @@ nav.navbar {
       width: 8%;
       
   }
-  nav.navbar .navbar-nav .nav-link.navbar-link {
+  nav.navbar .navbar-nav a.navbar-link.navbar-link {
     font-weight: 400;
     color: #fff !important;
     letter-spacing: 0.8px;
-    padding: 0 25px;
+    padding: 0 10px;
     font-size: 16px;
+    text-decoration: none;
   }
-  nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-  nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  nav.navbar .navbar-nav a.navbar-link.navbar-link:hover {
       opacity: 1;
       
+  }
+
+  nav.navbar .navbar-nav a.navbar-link.navbar-link.active {
+      color: rgb(227, 170, 234) !important;
+
   }
   span.navbar-text {
       display: flex;
@@ -40,9 +44,9 @@ nav.navbar {
     font-weight: 700;
     color: #fff;
     border: 1px solid #fff;
-    padding: 18px 34px;
+    padding: 15px 30px;
     font-size: 18px;
-    margin-left: 18px;
+    margin-left: 10px;
       position: relative;
       background-color: transparent;
       transition: 0.3s ease-in-out;
